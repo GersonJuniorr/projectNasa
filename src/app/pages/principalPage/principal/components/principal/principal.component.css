@@ -1,0 +1,37 @@
+.divAll {
+  background-color: #fff;
+}
+
+.textData {
+  margin-top: 3%;
+}
+
+.campoData, .textData {
+  display: flex;
+  justify-content: center;
+}
+
+.btnBuscar {
+  margin-left: 5px;
+}
+
+.fotoNasa {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 500px;
+}
+
+.titulo {
+  margin: 15px;
+}
+
+.sobre {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.titulo, .sobre {
+  display: flex;
+  justify-content: center;
+}
