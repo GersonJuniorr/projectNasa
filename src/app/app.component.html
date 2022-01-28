@@ -1,1 +1,18 @@
-<router-outlet></router-outlet>
+<div class="divAll">
+  <div class="textData">
+    <h4>Date:</h4>
+  </div>
+  <div class="campoData">
+    <input type="date" id="date" value="2017-06-01" [(ngModel)]="date">
+    <button class="btn btn-primary btnBuscar" (click)="getData()">Search</button>
+  </div>
+  <div class="titulo">
+    <span><strong>Title:</strong> {{ data.title }}</span>
+  </div>
+  <div class="sobre">
+    <span><strong>About:</strong> {{ data.explanation }} </span>
+  </div>
+  <div >
+    <img class="fotoNasa" src="{{ data.url }}" alt="Image of api nasa apod">
+  </div>
+</div>

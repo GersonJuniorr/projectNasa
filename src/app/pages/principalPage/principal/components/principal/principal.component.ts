@@ -19,7 +19,7 @@ export class PrincipalComponent implements OnInit {
   }
 
   getData() {
-    console.log(this.principalService.getPicture().toPromise().then(res => this.data = res));
+    console.log(this.principalService.getPicture(this.date).toPromise().then(res => this.data = res));
   }
 
   todata() {
